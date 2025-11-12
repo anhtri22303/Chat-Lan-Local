@@ -792,6 +792,11 @@ app.get('*', (req, res) => {
   }
 });
 
+// 健康檢查路由，供 keep-alive 或平台探活使用
+app.get('/health', (req, res) => {
+    res.status(200).json({ ok: true, timestamp: Date.now() });
+});
+
 // 檢查端口是否可用
 async function isPortAvailable(port) {
   return new Promise((resolve) => {
@@ -819,11 +824,15 @@ async function findAvailablePort(startPort) {
 
 // 使用異步啟動服務器
 (async () => {
-  const startPort = parseInt(process.env.SERVER_PORT) || 13050;
+    // Prefer the platform-provided PORT (e.g., Replit) then SERVER_PORT, then default
+    const startPort = parseInt(process.env.PORT || process.env.SERVER_PORT) || 13050;
   const PORT = await findAvailablePort(startPort);
-  
-  http.listen(PORT, process.env.HOST || '0.0.0.0', () => {
-    console.log(`Server running on http://${process.env.HOST || '127.0.0.1'}:${PORT}`); 
+
+  // Replit yêu cầu bind to 0.0.0.0
+  const host = process.env.REPL_ID ? '0.0.0.0' : (process.env.HOST || '0.0.0.0');
+
+  http.listen(PORT, host, () => {
+    console.log(`Server running on http://${host}:${PORT}`);
     console.log(`Server running on http://127.0.0.1:${PORT}`);
     // 如果端口不是原始端口，提示用戶
     if (PORT !== startPort) {

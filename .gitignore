@@ -1,7 +1,10 @@
 node_modules
 .env
+.env.local
+.env.*.local
 uploads
-package-lock.json
-dist
 server/uploads/*
 !server/uploads/.gitkeep
+# Keep package-lock.json for consistent deployments
+# dist/
+# Uncomment dist/ if you want to commit built files
