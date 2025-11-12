@@ -1,0 +1,73 @@
+{
+  "app": {
+    "title": "LAN Chat"
+  },
+  "chat": {
+    "placeholder": "Nhập tin nhắn...",
+    "send": "Gửi",
+    "attach": "Đính kèm tệp",
+    "mention": "Nhắc đến người dùng",
+    "fileLimit": "Bạn chỉ có thể tải lên 3 tệp cùng lúc",
+    "uploadFailed": "Tải tệp thất bại",
+    "loadHistory": "Tải lịch sử trò chuyện",
+    "fileTooLarge": "Kích thước tệp vượt quá giới hạn (tối đa {size}MB)",
+    "voiceCall": "Cuộc gọi thoại"
+  },
+  "user": {
+    "join": "đã tham gia trò chuyện",
+    "leave": "đã rời khỏi trò chuyện",
+    "changeName": "Đổi tên",
+    "nameError": "Tên người dùng không được để trống",
+    "nameExists": "Tên người dùng này đã được sử dụng",
+    "online": "Người dùng trực tuyến",
+    "you": "(bạn)"
+  },
+  "notification": {
+    "mentioned": "đã nhắc đến bạn"
+  },
+  "theme": {
+    "light": "Chế độ sáng",
+    "dark": "Chế độ tối"
+  },
+  "language": {
+    "en": "English",
+    "zh_tw": "繁體中文",
+    "zh_cn": "简体中文",
+    "vi": "Tiếng Việt"
+  },
+  "login": {
+    "title": "Cập nhật tên người dùng",
+    "username": "Tên người dùng",
+    "join": "Tham gia",
+    "update": "Cập nhật",
+    "random": "Tên ngẫu nhiên",
+    "cancel": "Hủy"
+  },
+  "message": {
+    "loadHistory": "Tải lịch sử",
+    "systemJoin": "đã tham gia trò chuyện",
+    "systemLeave": "đã rời khỏi trò chuyện",
+    "download": "Tải xuống",
+    "preview": "Xem trước"
+  },
+  "room": {
+    "create": "Tạo phòng riêng tư",
+    "usePassword": "Sử dụng bảo vệ mật khẩu",
+    "password": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu phòng",
+    "nameRequired": "Vui lòng nhập tên phòng",
+    "created": "Phòng đã được tạo thành công",
+    "joined": "Đã tham gia phòng",
+    "left": "Đã rời phòng",
+    "invalidPassword": "Mật khẩu không hợp lệ",
+    "roomNotFound": "Không tìm thấy phòng",
+    "shareRoom": "Chia sẻ phòng",
+    "shareWithPassword": "Chia sẻ với mật khẩu",
+    "includePassword": "Bao gồm mật khẩu trong liên kết chia sẻ?",
+    "copied": "Đã sao chép vào clipboard",
+    "leaveToPublic": "Quay lại trò chuyện công khai",
+    "needPassword": "Cần mật khẩu",
+    "join": "Tham gia phòng",
+    "passwordRequired": "Vui lòng nhập mật khẩu"
+  }
+}

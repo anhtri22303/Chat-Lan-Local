@@ -1,0 +1,71 @@
+{
+  "app": {
+    "title": "LAN Chat"
+  },
+  "chat": {
+    "placeholder": "Enter message...",
+    "send": "Send",
+    "attach": "Attach file",
+    "mention": "Mention user",
+    "fileLimit": "You can only upload 3 files at once",
+    "uploadFailed": "File upload failed",
+    "loadHistory": "Load chat history",
+    "fileTooLarge": "File size exceeds the limit (max {size}MB)",
+    "voiceCall": "Voice Call"
+  },
+  "user": {
+    "join": "joined the chat",
+    "leave": "left the chat",
+    "changeName": "Change name",
+    "nameError": "Username cannot be empty",
+    "nameExists": "This username is already taken",
+    "online": "Online Users",
+    "you": "(you)"
+  },
+  "notification": {
+    "mentioned": "mentioned you"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "language": {
+    "en": "English",
+    "zh_tw": "繁體中文",
+    "zh_cn": "简体中文"
+  },
+  "login": {
+    "title": "Update Username",
+    "username": "Username",
+    "join": "Join",
+    "update": "Update",
+    "random": "Random Name",
+    "cancel": "Cancel"
+  },
+  "message": {
+    "loadHistory": "Load History",
+    "systemJoin": "joined the chat",
+    "systemLeave": "left the chat",
+    "download": "Download",
+    "preview": "Preview"
+  },
+  "room": {
+    "create": "Create Private Room",
+    "usePassword": "Use Password Protection",
+    "password": "Password",
+    "passwordPlaceholder": "Enter Room Password",
+    "nameRequired": "Please enter a room name",
+    "created": "Room created successfully",
+    "joined": "Joined Room",
+    "left": "Left Room",
+    "invalidPassword": "Invalid Password",
+    "roomNotFound": "Room Not Found",
+    "shareRoom": "Share Room",
+    "shareWithPassword": "Share with Password",
+    "includePassword": "Include password in the share link?",
+    "copied": "Copied to clipboard",
+    "leaveToPublic": "Return to Public Chat",
+    "needPassword": "Need Password",
+    "join": "Join Room"
+  }
+} 
